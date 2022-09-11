@@ -25,7 +25,6 @@ jobs:
           commit=$(curl -sL $upStream/commits/${{ matrix.branchName }} |grep -o "/${{ matrix.userName }}/${{ matrix.repoName }}/commit/[a-z0-9]\+" |head -1 | cut -d\/ -f5)
 
       - name: Checkout Source Code and Zip
-        if: ${{ env.commit }}
         run: |
           git clone ${{ env.upStream }} TVBoxOSC
           cd TVBoxOSC
