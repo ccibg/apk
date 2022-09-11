@@ -30,7 +30,6 @@ jobs:
           cd TVBoxOSC
           git checkout ${{ env.commit }}
       - uses: actions/cache@v3
-        if: ${{ env.commit }}
         with:
           path: |
             ~/.gradle/caches
