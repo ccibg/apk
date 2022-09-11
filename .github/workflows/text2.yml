@@ -29,8 +29,7 @@ jobs:
           git clone ${{ env.upStream }} TVBoxOSC
           cd TVBoxOSC
           git checkout ${{ env.commit }}
-          echo  $GITHUB_ENV
-          zip -q -x ".git/*" -r ${{ env.commitS }}-source.zip .
+          git/*" -r ${{ env.commitS }}-source.zip .
       - uses: actions/cache@v3
         if: ${{ env.commit }}
         with:
