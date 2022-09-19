@@ -31,8 +31,8 @@ jobs:
           - userName: q215613905
             repoName: TVBoxOS
             branchName: main
-          - userName: takagen99
-            repoName: Box
+          - userName: ccibg
+            repoName: TVBoxOS
             branchName: main
     steps:
       - name: Checkout
