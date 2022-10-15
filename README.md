@@ -3,5 +3,5 @@ https://github.com/ccibg/apk/releases
 ## Credits
 This repo relies on the following third-party projects:
 - [CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)
-- [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS) (Updated: 9abe4af647ef0b2803ccf9bd93dba0536b593b4d)
+- [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS) (Updated: 7b512162c7979dea507fb855de3fd2de06bbab76)
 - [ccibg/TVBoxOS](https://github.com/takagen99/Box) (Updated: e03b66e81d6d86368241dd71367592696dd0bb14)
